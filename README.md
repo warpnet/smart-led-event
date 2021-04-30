@@ -2,12 +2,12 @@
 During this Make Event you'll learn how to use a NodeMCU (WiFi-enabled Arduino ESP8266) to build a smart LED light strip - while connecting virtually with other people.
 
 ## Table of Contents
-- [Preparing for the Make Event](preparing-for-the-make-event)
-- [At the Make Event](at-the-make-event)
-- [After the Make Event](after-the-make-event)
-- [Project Extensions](project-extensions)
-- [Useful Resources](useful-resources)
-- [Troubleshooting](troubleshooting)
+- [Preparing for the Make Event](#preparing-for-the-make-event)
+- [At the Make Event](#at-the-make-event)
+- [After the Make Event](#after-the-make-event)
+- [Project Extensions](#project-extensions)
+- [Useful Resources](#useful-resources)
+- [Troubleshooting](#troubleshooting)
 
 ## Preparing for the Make Event
 During the Make Event you'll be making a smart LED light strip. The aim of the Make Event is to explore and learn new things, while connecting with other people. Before the Make Event, complete the [Preparation Steps](PREPARE.md) to get the LED blinking on your new NodeMCU.
