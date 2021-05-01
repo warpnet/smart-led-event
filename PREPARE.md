@@ -67,4 +67,4 @@ Here's an example from [Roald](https://www.linkedin.com/in/roaldnefs/):
 
 Read through the [README](README.md) including [At the Make Event](README.md#at-the-make-event), [Project Extensions](README.md#project-extensions) and [Useful Resources](README.md#useful-resources) to get an idea where your want to take your smart LED light strip project during the Make Event.
 
-Please edit or add to the documentation as you go, by submitting a [Merge Request in GitLab](https://gitlab.warpnet.nl/events/make)!
+Please edit or add to the documentation as you go, by following the [Contribution Guidelines](README.md#contributing).
