@@ -56,7 +56,7 @@ If everything is properly connected, the internal LED should start blinking agai
 
 ### Step 3 - Expose the connector on the LED strip
 
-Before the original LED light strip can be connected to our own controller we will need to expose the connector. After exposing the connector we have to make some modifications to the cables in order to make them fit in the connector.
+Before the original LED light strip can be connected to our own controller we will need to expose the connector. After exposing the connector we need to modify the cables in order to make them fit in the connector.
 
 1. Start by cutting the heat shrink tubing around the connector on the original LED light strip using a scissor as shown in [this picture](media/cable.jpeg).
 1. The exposed connector on the LED strip is to small to be used with the dupont cables. Remove the plastic caps on at least 6 dupont cables as shown in [this picture](media/cable_1.jpeg) and cut a small piece of heat shrink tubing to cover the exposed metal.
