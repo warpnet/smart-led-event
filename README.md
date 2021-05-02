@@ -23,7 +23,7 @@ During the event you'll need:
 
 ## At the Make Event
 
-During the event you'll be building your own smart LED light strip. We start by uploading a program to let internal LED continuously blink, after which we will connect the NodeMCU to a 12V DC adapater. Once the adapter is connected, we can start to connect the LED light strip.
+During the event you'll be building your own smart LED light strip. We start by uploading a program to let the internal LED blink continuously, after which we will connect the NodeMCU to a 12V DC adapter. Once the adapter is connected, we can start to connect the LED light strip.
 
 ### Step 1 - Let there be light
 
@@ -40,7 +40,7 @@ Start by making sure the [blink.ino](blink/blink.ino) program is uploaded to you
 
 ### Step 2 - Power Feed
 
-During the preparation steps you've connected the NodeMCU using an USB cable. As you might know the USB connection will only provide a [5V DC signal](https://en.wikipedia.org/wiki/USB). The LED light strip comes included with a 12V DC adapter. In order to power the NodeMCU using the 12V DC adapter, we will need to step down the voltage to 5V. Start by building the voltage regulator circuit as shown below:
+During the preparation steps you've connected the NodeMCU using an USB cable. As you might know the USB connection will only provide a [5V DC signal](https://en.wikipedia.org/wiki/USB). The LED light strip comes included with a 12V DC adapter. In order to power the NodeMCU using the 12V DC adapter, we will need to step down the voltage to 5V. Start by building the voltage regulator circuit as shown above:
 
 <img src="media/power.png" alt="Voltage regulator circuit" width="500"/>
 
@@ -52,7 +52,7 @@ During the preparation steps you've connected the NodeMCU using an USB cable. As
 1. The right pin of the voltage regulator can be connected to the **3V3** pin on the NodeMCU while the middle pin can be connected to one of the **GND** pins on the NodeMCU.
 1. Make sure everything is connected correctly before applying power to the adapter.
 
-If everything is properly connected, the internal LED should start blinking again! You've now built your own voltage regulator circuit. If you still struggle to get this to work, you can take a peak at [this picture.](media/voltage_regulator_12V.jpg)
+If everything is properly connected, the internal LED should start blinking again! You've now built your own voltage regulator circuit. If you still struggle to get this to work, you can take a peek at [this picture.](media/voltage_regulator_12V.jpg)
 
 ### Step 3 - Connect to the LED strip using a transistor
 
@@ -62,13 +62,13 @@ Between the transistor and the NodeMCU you will need to place a resistor as well
 
 <img src="media/transistor.png" alt="LED PIN to NodeMCU Circuit using a Transistor" width="500"/>
 
-1. Place the **resistor** with the rounded side to the back, as shown in the picture.
-1. Use the left PIN of the **transistor** to connect it to the ground. You need to place the wire behind the **transistor** and connect it to the (-) on the powerfeed of the breadboard.
-1. Use the middle PIN of the **transistor** to connect the resistor. You will need to place the resistor across the gap.
-1. You can use the right side of the **transistor** to connect it to a colour PIN of the LED strip. Make sure you place the cable behind the resistor and connect it to the LED strip.
+1. Place the **transistor** with the rounded side to the back, as shown in the picture.
+1. Connect the left PIN of the **transistor** to the ground. You need to place the wire behind the **transistor** and connect it to the (-) on the powerfeed of the breadboard.
+1. Connect the middle PIN of the **transistor** to the resistor. You will need to place the resistor across the gap.
+1. Connect the right side of the **transistor** to a colour PIN of the LED strip. Make sure you place the cable behind the resistor and connect it to the LED strip.
 1. In order to control the colour, connect a cable to a datapin (you can use **D1**, **D5**, **D6**, **D7** and **D8**) of the **NodeMCU** to the **resistor**. Make sure this cable is in front of the **resistor**.
 
-Repeat those steps for each R,G,B,W,Y channel. You can take a peak at [this picture](media/transistor_breadboard.jpg) to get a clearer view.
+Repeat those steps for each R,G,B,W,Y channel. You can take a peek at [this picture](media/transistor_breadboard.jpg) to get a clearer view.
 
 > **TIP:** Remove the plastic of one side of a male-male wire. To prevent signal interfering use the heat shrink tubing around the metal of the wire. You will then have a sleek cable that you can plugin into the LED strips.
 

@@ -34,7 +34,7 @@ By default the Arduino IDE doesn't recognize the ESP8266 NodeMCU V2
 
 1. Open the Arduino IDE
 2. Go to **Files** (_Linux/Windows_) or **Arduino** (_macOS_) and click on **Preferences**.
-3. Add the following URL to the **Additional Board Manager URLs** field: `http://arduino.esp8266.com/stable/package_esp8266com_index.json`.
+3. Add the following URL to the **Additional Board Manager URLs** field: `https://arduino.esp8266.com/stable/package_esp8266com_index.json`.
 
 <img src="media/arduino_board_manager.png" alt="Arduino Board Manager" width="300"/>
 
