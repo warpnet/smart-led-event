@@ -49,7 +49,7 @@ During the preparation steps you've connected the NodeMCU using an USB cable. As
 1. Place the **voltage regulator** on the breadboard, as shown in the picture below.
 1. The negative lead of the **capacitor** is shorter than the positive lead. In order place the capacitors on the breadboard you might need to cut the leads to the same size. The negative (_denoted with the (-) sign_) should be connected to the middle pin of the voltage regulator.
 1. Connect the left pin of the voltage regulator to the (+) lane on the breadboard. Connect the middle pin to the (-) lane on the breadboard.
-1. The right pin of the voltage regulator can be connected to the **3V3** pin on the NodeMCU while the middle pin can be connected to one of the **GND** pins on the NodeMCU.
+1. The right pin of the voltage regulator can be connected to the **VIN** pin on the NodeMCU while the middle pin can be connected to one of the **GND** pins on the NodeMCU.
 1. Make sure everything is connected correctly before applying power to the adapter.
 
 If everything is properly connected, the internal LED should start blinking again! You've now built your own voltage regulator circuit. If you still struggle to get this to work, you can take a peek at [this picture.](media/voltage_regulator_12V.jpg)
