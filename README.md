@@ -60,7 +60,7 @@ Before the original LED light strip can be connected to our own controller we wi
 
 1. Start by cutting the heat shrink tubing around the connector on the original LED light strip using a scissor as shown in [this picture](media/cable.jpeg).
 1. The exposed connector on the LED strip is to small to be used with the dupont cables. Remove the plastic caps on at least 6 dupont cables as shown in [this picture](media/cable_1.jpeg) and cut a small piece of heat shrink tubing to cover the exposed metal.
-1. Place the heat shrink tubing around the exposed metal and make sure one the tip of the cable is exposed. Apply some heat to make it shrink, but be careful not to burn yourself or the plastic. [This picture](media/cable_2.jpeg) shows the end result.
+1. Place the heat shrink tubing around the exposed metal and make sure only the tip of the cable is exposed. Apply some heat to make it shrink, but be careful not to burn yourself or the plastic. [This picture](media/cable_2.jpeg) shows the end result.
 
 ### Step 4 - Connect to the LED strip using a transistor
 
