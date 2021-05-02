@@ -40,13 +40,13 @@ Start by making sure the [blink.ino](blink/blink.ino) program is uploaded to you
 
 ### Step 2 - Power Feed
 
-During the preparation steps you've connected the NodeMCU using an USB cable. As you might know the USB connection will only provide a [5V DC signal](https://en.wikipedia.org/wiki/USB). The LED light strip comes included with a 12V DC adapter. In order to power the NodeMCU using the 12V DC adapter, we will need to step down the voltage to 5V. Start by building the voltage regulator circuit as shown above:
+During the preparation steps you've connected the NodeMCU using an USB cable. As you might know the USB connection will only provide a [5V DC signal](https://en.wikipedia.org/wiki/USB). The LED light strip comes included with a 12V DC adapter. In order to power the NodeMCU using the 12V DC adapter, we will need to step down the voltage to 5V. Start by building the voltage regulator circuit as shown below:
 
 <img src="media/power.png" alt="Voltage regulator circuit" width="500"/>
 
 1. Make sure the NodeMCU is **not** connected using the USB cable.
 1. Connect a red cable to the (+) terminal and a black cable to the (-) terminal on the **female DC jack**. The other side of the cables can be connected to the (+) and (-) lanes on the breadboard.
-1. Place the **voltage regulator** on the breadboard, as shown in the picture below.
+1. Place the **voltage regulator** on the breadboard, as shown in the picture above.
 1. The negative lead of the **capacitor** is shorter than the positive lead. In order place the capacitors on the breadboard you might need to cut the leads to the same size. The negative (_denoted with the (-) sign_) should be connected to the middle pin of the voltage regulator.
 1. Connect the left pin of the voltage regulator to the (+) lane on the breadboard. Connect the middle pin to the (-) lane on the breadboard.
 1. The right pin of the voltage regulator can be connected to the **VIN** pin on the NodeMCU while the middle pin can be connected to one of the **GND** pins on the NodeMCU.
