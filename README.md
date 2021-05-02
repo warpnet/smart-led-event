@@ -54,7 +54,15 @@ During the preparation steps you've connected the NodeMCU using an USB cable. As
 
 If everything is properly connected, the internal LED should start blinking again! You've now built your own voltage regulator circuit. If you still struggle to get this to work, you can take a peak at [this picture.](media/voltage_regulator_12V.jpg)
 
-### Step 3 - Connect to the LED strip using a transistor
+### Step 3 - Expose the connector on the LED strip
+
+Before the original LED light strip can be connected to our own controller we will need to expose the connector. After exposing the connector we have to make some modifications to the cables in order to make them fit in the connector.
+
+1. Start by cutting the heat shrink tubing around the connector on the original LED light strip using a scissor as shown in [this picture](media/cable.jpeg).
+1. The exposed connector on the LED strip is to small to be used with the dupont cables. Remove the plastic caps on at least 6 dupont cables as shown in [this picture](media/cable_1.jpeg) and cut a small piece of heat shrink tubing to cover the exposed metal.
+1. Place the heat shrink tubing around the exposed metal and make sure one the tip of the cable is exposed. Apply some heat to make it shrink, but be careful not to burn yourself or the plastic. [This picture](media/cable_2.jpeg) shows the end result.
+
+### Step 4 - Connect to the LED strip using a transistor
 
 Because the LED strip is 12V powered on one side, the other PINS (_R, G, B, Y, W_) need a path to the ground. To handle all the current, a transistor is used to switch many amps of power at different/high volts with a single lower power/voltage signal. The transistor will basically isolate the signal. If you were to connect the led strip directly to the NodeMCU, you would likely fry the NodeMCU as the NodeMCU can not handle the current that is put through by the LED strip.
 
@@ -74,7 +82,7 @@ Repeat those steps for each R,G,B,W,Y channel. You can take a peak at [this pict
 
 > **Note:** Do not connect the LED strip directly to any of the PINS of the NodeMCU. If you do, you may fry you NodeMCU. In that case you can enjoy your beer while it lasts :).
 
-### Step 4 - Let there be more light!
+### Step 5 - Let there be more light!
 
 Once everthing is connected according to the schematic below, you can build a program to make the LED light strip smart.
 
@@ -84,7 +92,7 @@ Once everthing is connected according to the schematic below, you can build a pr
 1. Upload the [colour.ino](colour/colour.ino) program to your NodeMCU. Once uploaded you can disconnect the USB cable.
 1. Before connecting the NodeMCU to the 12V power supply, turn up your PC volume, start [this song](https://www.youtube.com/watch?v=9ZrAYxWPN6c) and connect the power supply.
 
-### Step 5 - Playtime!
+### Step 6 - Playtime!
 
 Now that the basics of your LED light strip are up and running, it's time to let your own project shine!
 
