@@ -137,6 +137,17 @@ If the USB port does not show up in the Arduino IDE in the **Tools**, **Port** s
     - [Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) for the **CP2102 chipset**.
     - [Drivers](https://sparks.gogo.co.nz/ch340.html) for the **CH340 chipset**.
 
+### Cannot open /dev/ttyUSB0: Permission denied
+
+If the USB port shows up, but the sketch can not be uploaded to the board you might see the following error message (in red) in the Arduino IDE console: `Cannot open /dev/ttyUSB0: Permission denied` (where `/dev/ttyUSB0` is the port you selected earlier).
+
+This means your system user is not allowed to write to `/dev/ttyUSB0`. This can be fixed by running one of the following commands:
+
+* Ubuntu: `sudo usermod -a -G dialout $USER`
+* Arch: `sudo usermod -a -G uucp $USER`
+
+Be sure to log out and back in again for the change to take effect.
+
 ### macOS Big Sur Upload Error
 
 On macOS Big Sur you might run into the following error while attempting to upload a sketch to your board: `pyserial or esptool directories not found next to this upload.py tool.`. The error is caused by a bug in the included PySerial package, for more information see the [Arduino Forum](https://forum.arduino.cc/t/pyserial-and-esptools-directory-error/671804/12).
