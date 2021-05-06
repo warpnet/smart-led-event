@@ -80,7 +80,7 @@ Repeat those steps for each R,G,B,W,Y channel. You can take a peek at [this pict
 
 > **TIP:** Remove the plastic of one side of a male-male wire. To prevent signal interfering use the heat shrink tubing around the metal of the wire. You will then have a sleek cable that you can plugin into the LED strips.
 
-> **Note:** Do not connect the LED strip directly to any of the PINS of the NodeMCU. If you do, you may fry you NodeMCU. In that case you can enjoy your beer while it lasts :).
+> **Note:** Do not connect the LED strip directly to any of the PINS of the NodeMCU. If you do, you may fry your NodeMCU. In that case you can enjoy your beer while it lasts :).
 
 ### Step 5 - Let there be more light!
 
