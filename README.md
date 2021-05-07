@@ -116,7 +116,7 @@ Please edit or add to the documentation by submitting a [Pull Request in Github]
 
 You can find some project extension below for when you're finished with creating your the smart LED light strip.
 
-* Connect the NodeMCU to WiFi.
+* Connect the NodeMCU to WiFi. (example: [wifi.ino](wifi/wifi.ino))
 * Connect it to your monitoring application. For example; when a critical error has occured the LED strip turns red.
 * Set up a (web)server on the NodeMCU to control the colours of the LED.
 
