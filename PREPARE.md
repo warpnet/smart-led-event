@@ -54,6 +54,7 @@ Make sure everything is working by uploading your first sketch to the ESP8266 No
 1. Select the right USB port from the **Tools** menu in the **Port** section. Check [Troubleshooting](README.md#troubleshooting) if the port is missing.
 1. Copy and past the [blink.ino](blink/blink.ino) code into your Arduino IDE and upload the sketch by clicking **Upload**.
 1. After compiling the code, it should automatically start uploading. Check [Troubleshooting](README.md#troubleshooting) if you run into issues with uploading the code to your ESP8266 NodeMCU V2.
+1. Check the LED light on the NodeMCU board for a blinking light. If it blinks according to the specified timing of one second, you're all set!
 
 ## Step 5 - Share a Picture (optional)
 
