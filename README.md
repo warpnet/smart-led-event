@@ -119,7 +119,7 @@ You can find some project extension below for when you're finished with creating
 * Connect the NodeMCU to WiFi. (example: [wifi.ino](examples/wifi.ino))
 * Read the WiFi signal strength and project a colour on you led strip based on the current strength. (example: [wifi_signal_colour.ino](examples/wifi_signal_colour.ino))
 * Connect it to your monitoring application. For example; when a critical error has occured the LED strip turns red.
-* Set up a (web)server on the NodeMCU to control the colours of the LED.
+* Set up a (web)server on the NodeMCU to control the colours of the LED. (example: [colourful_webserver.ino](examples/colourful_webserver.ino))
 
 ## Useful Resources
 
